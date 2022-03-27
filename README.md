@@ -1,2 +1,2 @@
-# ThesisTex
-Tex files and builds for my Bc. thesis
+# Killer Sudoku
+Constraint programming project for Minizinc. 
