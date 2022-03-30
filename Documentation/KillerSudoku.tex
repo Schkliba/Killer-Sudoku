@@ -1,0 +1,29 @@
+\documentclass[10pt,a4paper,oneside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[left=3cm,right=2cm,top=2cm,bottom=4cm]{geometry}
+\usepackage{amsthm}
+\usepackage{float}
+\author{František Dostál}
+\newtheorem{theorem}{Věta}
+\newtheorem{lemma}{Lemma}[theorem]
+\title{Killer Sudoku Solver}
+\begin{document}
+\maketitle
+\section{Problem Description}
+Killer Sudoku is a variant on classical Sudoku, where so called "cages" are added to the problem. The rules as described here are sourced form \href{https://www.csplib.org/Problems/prob057/}{CSPLibrary}.
+The cages are usually continuous sets of sudoku cells, however since the rules are not particulary clear on this point, we will assume general set of cells to be a cage, the decision being left to the puzzle's author.\\
+The numbers in cages have to differ, just like they have to differ in rows and classic sudoku brackets but they also have to add up to a pre-set sum.\\
+The size of a cage should be smaller than classic sudoku bracket but again it's not enforced rule and we will grant agency in this matter to the author of the puzzle.\\
+However each cell should belong only to one cage at a time.
+We will assume that the input sudoku can be non-standard, meaning that the square bracket can have arbitrary size $ B\times B$ , therefore the whole puzzle being of size $ N\times N$ where $ N = B^{2} $. 
+
+\section{Solution}
+\section{Experimental Results}
+\end{document}
