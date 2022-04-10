@@ -1,6 +1,6 @@
 MiniZinc to FlatZinc converter, version 2.5.5, build 273041792
 Copyright (C) 2014-2021 Monash University, NICTA, Data61
-Parsing file(s) SudokuGenration.mzn', 'C:\Users\42077\AppData\Local\Temp\mzn_data7t4s0qh8.json' ...
+Parsing file(s) C:\Users\42077\Documents\MFF\Constraint Programming\Killer-Sudoku\Examples\SudokuGeneration.mzn', 'C:\Users\42077\AppData\Local\Temp\mzn_dataqeyq5gqt.json' ...
 processing file 'c:\Program Files\MiniZinc\share\minizinc\std\stdlib.mzn'
 processing file 'c:\Program Files\MiniZinc\share\minizinc\std\stdlib\stdlib_internal.mzn'
 processing file 'c:\Program Files\MiniZinc\share\minizinc\std\stdlib\stdlib_random.mzn'
@@ -76,7 +76,7 @@ processing file 'c:\Program Files\MiniZinc\share\minizinc\std\redefinitions-2.1.
 processing file 'c:\Program Files\MiniZinc\share\minizinc\gecode\redefinitions-2.0.2.mzn'
 processing file 'c:\Program Files\MiniZinc\share\minizinc\gecode\redefinitions-2.0.mzn'
 processing file 'c:\Program Files\MiniZinc\share\minizinc\gecode\redefinitions.mzn'
-processing file 'C:\Users\42077\Documents\MFF\Constraint Programming\Killer-Sudoku/SudokuGenration.mzn'
+processing file 'C:\Users\42077\Documents\MFF\Constraint Programming\Killer-Sudoku\Examples\SudokuGeneration.mzn'
 processing file 'c:\Program Files\MiniZinc\share\minizinc\std\int_set_channel.mzn'
 processing file 'c:\Program Files\MiniZinc\share\minizinc\std\fzn_int_set_channel_reif.mzn'
 processing file 'c:\Program Files\MiniZinc\share\minizinc\gecode\fzn_int_set_channel.mzn'
@@ -90,13 +90,13 @@ processing file 'c:\Program Files\MiniZinc\share\minizinc\gecode\fzn_all_differe
  done parsing (0.04 s)
 Flattening ...
 	CompilePass: Flatten with 'c:\Program Files\MiniZinc\share\minizinc/gecode/' library ...
-MIP domains ... done (0.01 s)
-Optimizing ... done (0.01 s)
-Converting to old FlatZinc ... done (0.01 s)
- done (0.01 s)
- done (0.05 s), max stack depth 13
+MIP domains ... done (0.02 s)
+Optimizing ... done (0.02 s)
+Converting to old FlatZinc ... done (0.02 s)
+ done (0.02 s)
+ done (0.06 s), max stack depth 13
 Maximum memory 3 Mbytes.
       % SOLVING PHASE
 FZN solver plugin, compiled  Mar 19 2021  15:05:11
-Using FZN solver c:\Program Files\MiniZinc\share\minizinc\solvers/../../../bin/fzn-gecode.exe for solving, parameters: -n 100 -s 
-   Done (overall time 0.11 s).
+Using FZN solver c:\Program Files\MiniZinc\share\minizinc\solvers/../../../bin/fzn-gecode.exe for solving, parameters: -s 
+   Done (overall time 0.12 s).
